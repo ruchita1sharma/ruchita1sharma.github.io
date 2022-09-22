@@ -217,8 +217,8 @@ footer {
 
 .tm-gallery-item {
   margin: 10px 10px;
-  width: 240px;
-  height: 160px;
+  width: 270px;
+  height: 180px;
 }
 
 .slick-dots {
@@ -377,17 +377,17 @@ figure.effect-goliath p {
 
 figure.effect-goliath p {
   text-transform: none;
-  font-size: 0.8rem;
   padding: 15px 10px;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0, 50px, 0);
   transform: translate3d(0, 50px, 0);
+  font-size: 0.7rem;
 }
 
 .effect-goliath-heading {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: rgb(232, 219, 219);
 }
 
@@ -698,3 +698,10 @@ figure.effect-goliath:hover p {
 .tm-static {
   position: static;
 }
+
+.content-c
+{
+  margin: 10px;
+  font-size: 0.7rem;
+}
+
